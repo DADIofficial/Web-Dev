@@ -1,0 +1,189 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.facebook_and_login{
+    margin:0px;
+    background-color:rgb(240,242,245);
+    width: 100%;
+    height: 720px;
+}
+.facebook_logo {
+    width: 350px;
+    margin:0px;
+    margin-top: 150px;
+
+}
+.Facebook_subtitle{
+    font-size: 28px;
+    width:460px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+.box_facebook{
+    padding-left: 20px;
+    width: 500px;
+}
+.box_log_in{
+    float: right;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.mega_box_facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    float: left;
+}
+.real_log_in{
+    background-color: #fff;
+    width: 396px;
+    height: 348px;
+    padding-top: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow:
+    0 5px 5px -5px rgba(0, 0, 0, 0.3), /* Тень снизу */
+    0 -5px 5px -5px rgba(0, 0, 0, 0.1), /* Тень сверху */
+    5px 0 5px -5px rgba(0, 0, 0, 0.3), /* Тень справа */
+    -5px 0 5px -5px rgba(0, 0, 0, 0.3); /* Тень слева */;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+input:not(:focus){
+    width: 350px;
+    height: 51.6px;
+    margin: 6px;
+    border: 1px solid rgb(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-left: 14px;
+    font-size: 17px;
+}
+input:focus{
+    outline: none;
+    width: 350px;
+    height: 51.6px;
+    margin: 6px;
+    border: 1px solid rgb(0, 150, 250);
+    border-radius: 5px;
+    padding-left: 14px;
+    font-size: 17px;
+    box-shadow:
+    0 5px 5px -5px rgba(0, 0, 0, 0.3), /* Тень снизу */
+    0 -5px 5px -5px rgba(0, 0, 0, 0.1), /* Тень сверху */
+    5px 0 5px -5px rgba(0, 0, 0, 0.3), /* Тень справа */
+    -5px 0 5px -5px rgba(0, 0, 0, 0.3); /* Тень слева */;
+}
+.Vxod{
+    width: 364px;
+    height: 48px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(24,119,242);
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.zabiliparol{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1877F2;
+}
+.zabiliparol:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.prostolinia{
+    height: 0.8px;
+    width: 364px;
+    background-color: rgb(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.Sosdat_novyi{
+    width: 231.41px;
+    height: 48px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #43B72A;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    transition: background-color 0.3s;
+}
+.Sosdat_novyi:hover{
+    background-color: #3a9825;
+    transition: background-color 0.3s;
+}
+.Sosdat_stra{
+    width: 396px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.hrefnasos{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.footend{
+    padding-top: 20px;
+    width: 100%;
+    height: 175.94px;
+}
+.real_footend{
+    width: 980px;
+    height: 155.94px;
+    margin: 0px;
+    margin-left: 249.2px;
+}
+.language{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    word-spacing: 5px;
+    color: rgb(0, 0, 0, 0.5);
+}
+.lineforfoot{
+    height: 0.8px;
+    width: 1000px;
+    background-color: rgb(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom:10px; 
+}
+.other{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    word-spacing: 15px;
+    color: rgb(0, 0, 0, 0.5);
+}
+.mnogosilok{
+    word-spacing: 1px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, 0.5);
+}
+.mnogosilok:hover{
+    word-spacing: 1px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, 0.5);
+}
