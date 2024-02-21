@@ -11,93 +11,93 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Игровое кресло Defender Watcher Black',
+    name: 'DXRacer GC-P132-N-F2-158, черный',
     price: 199,
-    description: 'Специальный эргономичный дизайн обеспечит максимальный комфорт даже при длительных игровых сессиях. Яркий и стильный дизайн хорошо смотрится в любом интерьере и сразу отображает игровой тенор. Обеспечивает отличную стабильность и отлично подходит для поддержания повышенных игровых требований.',
-    image: "https://object.pscloud.io/cms/cms/Photo/img_0_867_432_4_6.webp",
-    rating: "8 by 10",  
-    url: "https://www.sulpak.kz/g/ofisniye_kresla_defender_watcher_cherniyj?gad_source=1&gclid=CjwKCAiA29auBhBxEiwAnKcSqmqFabd_5Pffk6B7AhHw86in2Z-icVrqbb9vMt-VL_JIB57Y-vkiShoCwToQAvD_BwE"
+    description: 'назначение: игровое кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья подлокотников, цвет: черный, страна: Китай',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/hd3/h8b/83818599251998.png?format=gallery-medium",
+    rating: "6 by 10",  
+    url: "https://kaspi.kz/shop/p/dxracer-gc-p132-n-f2-158-chernyi-110285543/?c=750000000"
   },
   {
     id: 2,
-    name: 'Смартфон Apple iPhone 11 128Gb Slim Box черный',
-    price: 699,
-    description: 'Изображение на экране смартфона диагональю 6.1 дюйма обладает поразительной детализацией и цветопередачей. ',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h17/h14/31489167425566/apple-iphone-11-128gb-slim-box-cernyj-100692388-1-Container.jpg",
-    rating: "7 by 10",
-    url: "https://kaspi.kz/shop/p/apple-iphone-11-128gb-slim-box-chernyi-100692388/?c=750000000#!/item"
+    name: 'Игровое кресло Defender Watcher, белый',
+    price: 209,
+    description: 'назначение: игровое кресло, тип базы: крестовина с колесами, материал обивки: искусственная кожа, регулировка: высота сиденья, цвет: белый, страна: Китай',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h9d/hbc/85091352150046.png?format=gallery-medium",
+    rating: "9 by 10",
+    url: "https://kaspi.kz/shop/p/igrovoe-kreslo-defender-watcher-belyi-110723371/?c=750000000"
   },
   {
     id: 3,
-    name: 'iPhone 14 Pro Max 256gb',
-    price: 1000,
-    description: 'OLED, Super Retina XDR display с возможностью постоянной работы',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h00/h18/62948780834846/apple-iphone-14-pro-max-128gb-fioletovyj-106363342-1.jpg",
+    name: 'Компьютерное DXRacer GC/G001/NW, черный, белый',
+    price: 219,
+    description: 'назначение: компьютерное кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья, цвет: черный-белый, страна: США',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h5f/h58/83818597220382.jpg?format=gallery-medium",
     rating: "9 by 10",
-    url: "https://kaspi.kz/shop/p/apple-iphone-14-pro-max-256gb-fioletovyi-106363342/?c=750000000#!/item"
+    url: "https://kaspi.kz/shop/p/komp-juternoe-dxracer-gc-g001-nw-chernyi-belyi-104570633/?c=750000000"
   },
   {
     id: 4,
-    name: 'Смартфон Samsung Galaxy A33 5G 6 ГБ/128 ГБ',
-    price: 599,
-    description: 'Смартфон Galaxy A33 5G стал тоньше и элегантнее благодаря матовому покрытию, качественным рамкам и безупречному корпусу камеры с Ambient Edge',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h56/h8c/49894748160030/samsung-galaxy-a33-5g-6-gb-128-gb-cernyj-104398547-1.jpg",
-    rating: "5 by 10",
-    url: "https://kaspi.kz/shop/p/samsung-galaxy-a33-5g-6-gb-128-gb-chernyi-104398547/?c=750000000#!/item"
+    name: 'Игровое DXRacer AIR-R1S-WQ.G-B4, серый',
+    price: 229,
+    description: 'назначение: компьютерное кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья, цвет: серый, страна: Китай',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/hee/h21/64386267119646.jpg?format=gallery-medium",
+    rating: "8 by 10",
+    url: "https://kaspi.kz/shop/p/igrovoe-dxracer-air-r1s-wq-g-b4-seryi-106771161/?c=750000000"
   },
   {
     id: 5,
-    name: 'Смартфон Xiaomi Redmi Note 11 Pro 8 ГБ/128 ГБ',
-    price: 399,
-    description: 'Сверхвысокая частота обновления. Высокая частота обновления 120 Гц обеспечивает бесперебойную работу и высокую детализацию изображения при просмотре веб-страниц.',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h11/h23/51166990368798/xiaomi-redmi-note-11-pro-8-gb-128-gb-seryi-103971386-1.jpg",
-    rating: "4 by 10",
-    url: "https://kaspi.kz/shop/p/xiaomi-redmi-note-11-pro-8-gb-128-gb-seryi-103971386/?c=750000000#!/item"
+    name: 'Игровое кресло Defender Watcher 64334, черный',
+    price: 89,
+    description: 'назначение: компьютерное кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья, цвет: черный, страна: Китай',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h6b/h46/79378713772062.jpg?format=gallery-medium",
+    rating: "2 by 10",
+    url: "https://kaspi.kz/shop/p/igrovoe-kreslo-defender-watcher-64334-chernyi-109574945/?c=750000000"
   },
   {
     id: 6,
-    name: 'Смартфон Apple iPhone 13 128Gb розовый',
-    price: 899,
-    description: 'Apple iPhone 13 получил дисплей 6.1 дюйма Super Retina XDR, который отличается невероятно высокой плотностью пикселей — фотографии, видео и текст выглядят поразительно четко.',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha0/h0e/46392660819998/apple-iphone-13-128gb-rozovyj-102298145-1-Container.jpg",
-    rating: "7 by 10",
-    url: "https://kaspi.kz/shop/p/apple-iphone-13-128gb-rozovyi-102298145/?c=750000000#!/item"
+    name: 'Игровое кресло Havit GC933, черный, красный',
+    price: 59,
+    description: 'назначение: компьютерное кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья, цвет: черный-красный, страна: Китай',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/ha2/hcb/79798800908318.jpg?format=gallery-medium",
+    rating: "8 by 10",
+    url: "https://kaspi.kz/shop/p/igrovoe-kreslo-havit-gc933-chernyi-krasnyi-109754036/?c=750000000"
   },
   {
     id: 7,
-    name: 'Смартфон Samsung Galaxy A03 Core 2 ГБ/32 ГБ',
-    price: 299,
-    description: 'Больше дисплей, больше возможностей. Расширьте границы доступного с 6.5-дюймовым экраном с V-образным вырезом.',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h15/hf4/52423971995678/samsung-galaxy-a03-core-2-gb-32-gb-bronzovyj-105772530-1.jpg",
+    name: 'Игровое кресло Xtreme Xtreon Recliner XTREME 8125, черный',
+    price: 89,
+    description: 'назначение: компьютерное кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья, цвет: черный-синий, страна: Китай',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h82/h43/84486996099102.png?format=gallery-medium",
     rating: "2 by 10",
-    url: "https://kaspi.kz/shop/p/samsung-galaxy-a03-core-2-gb-32-gb-chernyi-103153817/?c=750000000#!/item"
+    url: "https://kaspi.kz/shop/p/igrovoe-kreslo-xtreme-xtreon-recliner-xtreme-8125-chernyi-110165188/?c=750000000"
   },
   {
     id: 8,
-    name: 'Смартфон Xiaomi Redmi 10C 4 ГБ/128 ГБ ',
-    price: 599,
-    description: 'Xiaomi Redmi 10C оснащен большим дисплеем с диагональю 6.71 дюйма с защитным стеклом Corning Gorilla Glass, которое защищает экран от царапин и повреждений при падениях. ',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h58/hff/51348549861406/xiaomi-redmi-10c-4-gb-128-gb-zelenyi-104443164-1.jpg",
-    rating: "8 by 10",
-    url: "https://kaspi.kz/shop/p/xiaomi-redmi-10c-4-gb-128-gb-seryi-104417231/?c=750000000#!/item"
+    name: 'Игровое Canyon Deimos CND-SGCH4, черный, оранжевый',
+    price: 109,
+    description: 'назначение: компьютерное кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья, цвет: черный-оранжевый, страна: Беларусь',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/hee/hc9/63780635213854.jpg?format=gallery-medium",
+    rating: "9 by 10",
+    url: "https://kaspi.kz/shop/p/igrovoe-canyon-deimos-cnd-sgch4-chernyi-oranzhevyi-17800395/?c=750000000"
   },
   {
     id: 9,
-    name: 'Смартфон Apple iPhone 14 Pro 256Gb',
-    price: 1299,
-    description: 'голосовое управление, голосовой набор, поддержка nano SIM + eSIM',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha3/hb5/63073435254814/apple-iphone-14-pro-128gb-cernyj-106363265-1.jpg",
-    rating: "9 by 10",
-    url: "https://kaspi.kz/shop/p/apple-iphone-14-pro-256gb-fioletovyi-106363319/?c=750000000#!/item"
+    name: 'Игровое кресло Baumatic Bauma, красный',
+    price: 39,
+    description: 'назначение: компьютерное кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья, цвет: черный-красный, страна: Китай',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h50/hed/64346177896478.jpg?format=gallery-medium",
+    rating: "4 by 10",
+    url: "https://kaspi.kz/shop/p/igrovoe-kreslo-baumatic-bauma-krasnyi-106883141/?c=750000000"
   },
   {
     id: 10,
-    name: 'Смартфон Xiaomi Redmi 10C 4 ГБ/64 ГБ',
-    price: 699,
-    description: 'Xiaomi Redmi 10C оснащен большим дисплеем с диагональю 6.71 дюйма с защитным стеклом Corning Gorilla Glass, которое защищает экран от царапин и повреждений при падениях. ',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h9f/h3e/49939919699998/xiaomi-redmi-10c-4-gb-64-gb-seryj-104417151-1.jpg",
-    rating: "6 by 10",
-    url: "https://kaspi.kz/shop/p/xiaomi-redmi-10c-4-gb-64-gb-seryi-104417151/?c=750000000#!/item"
+    name: 'Компьютерное, игровое, эргономичное кресло Snakebyte, серый',
+    price: 39,
+    description: 'назначение: компьютерное кресло, тип базы: крестовина с колесами, материал обивки: экокожа, регулировка: высота сиденья, цвет: черный-красный, страна: Китай',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h8a/h14/81771482578974.png?format=gallery-medium",
+    rating: "7 by 10",
+    url: "https://kaspi.kz/shop/p/komp-juternoe-igrovoe-ergonomichnoe-kreslo-snakebyte-seryi-111212394/?c=750000000"
   },
 ];
 
