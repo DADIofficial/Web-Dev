@@ -12,6 +12,12 @@
   margin-right: 69px;
   text-align: center;
 }
+.buttons{
+  display: flex;
+}
+.buy{
+  margin-right: 10px;
+}
 
 img{
   width: 150px;

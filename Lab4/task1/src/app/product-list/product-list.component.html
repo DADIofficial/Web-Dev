@@ -21,11 +21,14 @@
   <p *ngIf="product.description" class="description">
     Description: {{ product.description }}
   </p>
-
+<div class="buttons">
+  <button type="button" class="buy">Buy</button>
   <button type="button" (click)="share(product.name, product.url)">
     Share
   </button>
+
   
+</div>  
 
 </div>
 
