@@ -3,19 +3,20 @@
     <button class="category_button" type="button" (click) = "categ.show_products = !categ.show_products">{{categ.name}}</button>
     
     <div *ngIf = "categ.show_products" >
-        <h2>Товары</h2>
-        <div *ngFor = "let product of categ.products" >
+        <div *ngFor = "let product of categ.products" class="product_item">
             
-                <h3>
+                <h3 class="h3_cena_and_name">
                     <a href={{product.link}} [title] = "product.name + ' details' "> {{product.name}} 
-                    </a>
-                    <p>Цена: {{product.price}}₸</p>
+                    </a></h3>
+                <h3><p>Цена: {{product.price}}$</p>
                 </h3>
             
                 <img *ngIf = "product.image" src={{product.image}}>
             
-                <p *ngIf = "product.description">
+                <p *ngIf = "product.description" class = "cena">
                     Описание: {{product.description}} <br>
+                </p>
+                <p *ngIf = "product.description" class = "cena">
                     Отзывы: {{product.rating}}
                 </p>
             

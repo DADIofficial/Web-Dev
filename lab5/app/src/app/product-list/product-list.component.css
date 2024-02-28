@@ -8,6 +8,11 @@ img{
     font-size: 20px;
     width: 200px;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 div{
     border: 1px solid black;
@@ -17,7 +22,29 @@ div{
     font-weight: bolder;
     font-size: 35px;    
 }
+.product_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cena{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h3_cena_and_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:600px;
+}
+.categ_name{
 
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
