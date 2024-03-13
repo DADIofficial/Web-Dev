@@ -1,0 +1,43 @@
+body {
+  background-color: #f8f9fa; /* Цвет фона */
+  margin: 0; /* Убираем отступы по умолчанию */
+  padding: 0; /* Убираем внутренние отступы по умолчанию */
+}
+
+.home-works-container {
+  margin: 20px auto; /* Центрируем контейнер по горизонтали */
+  padding: 20px; /* Внутренние отступы */
+  background-color: #fff; /* Цвет фона контейнера */
+  border: 1px solid #ddd; /* Граница */
+  border-radius: 5px; /* Скругление углов */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+h1 {
+  font-size: 24px; /* Размер шрифта */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+p {
+  font-size: 16px; /* Размер шрифта */
+  line-height: 1.5; /* Высота строки */
+  color: #333; /* Цвет текста */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+.more-resources-button {
+  display: block; /* Отображение кнопки как блока */
+  margin: 20px auto; /* Центрируем кнопку по горизонтали */
+  padding: 10px 20px; /* Внутренние отступы */
+  font-size: 16px; /* Размер шрифта */
+  border: 1px solid navy; /* Граница */
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px; /* Скругление углов */
+  background-color: navy; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  cursor: pointer; /* Курсор при наведении */
+}
+
+.more-resources-button:hover {
+  background-color: rgb(0, 0, 159); /* Изменяем цвет фона при наведении */
+}

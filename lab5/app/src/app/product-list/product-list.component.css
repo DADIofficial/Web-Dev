@@ -42,8 +42,10 @@ div{
     flex-direction: column;
     width:600px;
 }
-.categ_name{
 
+.delete_from{
+    margin-top: 10px;
+    background-color: red;
 }
 /*
 Copyright Google LLC. All Rights Reserved.

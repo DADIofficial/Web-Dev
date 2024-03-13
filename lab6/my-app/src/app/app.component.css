@@ -1,0 +1,52 @@
+/* Overall site styling */
+body {
+  margin: 0; /* Remove default body margin */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Modern, readable font stack */
+  font-size: 30px; /* Base font size */
+  color: navy; /* Dark text for better contrast */
+  background-color: aliceblue;
+}
+
+/* Header styling */
+.main-header {
+  display: flex; /* Align header elements horizontally */
+  justify-content: space-between; /* Distribute elements evenly */
+  align-items: center; /* Vertically center elements */
+  padding: 20px; /* Add some padding for spacing */
+  padding-right: 100px;
+  background-color: rgb(205, 231, 255); /* Light gray background */
+  box-shadow: 0 2px 5px rgba(0, 0, 255, 0.3); /* Subtle shadow for depth */
+  color:navy;
+}
+
+.main-header h1 {
+  font-size: 40px; /* Increase heading size */
+  margin: 0; /* Remove default heading margin */
+  padding: 0; /* Remove default heading padding */
+}
+
+/* Navigation styling */
+.navigation-list {
+  list-style: none; /* Remove default bullet points */
+  margin: 0; /* Remove default list margin */
+  padding: 0; /* Remove default list padding */
+  display: flex; /* Arrange navigation items horizontally */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline from links */
+  font-size: 25px;
+  font-weight: bold;
+  color: inherit; /* Inherit font color from body */
+  padding: 10px 80px; /* Add some padding for spacing */
+  transition: color 0.2s ease-in-out; /* Smooth color transition on hover */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Blue hover color */
+}
+
+/* Content area styling */
+.router-outlet { /* Assuming this is where your main content goes */
+  padding: 20px; /* Add padding for spacing */
+}

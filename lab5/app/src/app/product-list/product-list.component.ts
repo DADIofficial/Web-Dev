@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {categories} from '../categories';
+import { Product } from '../products';
 // import { products } from '../products';
 
 
@@ -14,6 +15,12 @@ export class ProductListComponent {
 
   share(link: string) {
     window.open('https://t.me/share/url?url='+link);
+  }
+  delete_from(myproduct: Product, myproducts: Product[]){
+    const index = myproducts.findIndex(p => p.id === myproduct.id);
+    if (index !== -1) {
+      myproducts.splice(index, 1);
+  }
   }
 
   onNotify() {
