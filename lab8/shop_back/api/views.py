@@ -23,11 +23,11 @@ def category_list(request):
     category_json = [p.to_json() for p in category]
     return JsonResponse(category_json, safe=False)
 
-def category_detail(request, category_id):
+def category_detail(request, category_id_path):
     category = Category.objects.all()
     category_json = [p.to_json() for p in category]
     for category in category_json:
-        if(category['id'] == category_id):
+        if(category['id'] == category_id_path):
             return JsonResponse(category)
     return JsonResponse({'Error': 'Category does not exit!!!'})
 
